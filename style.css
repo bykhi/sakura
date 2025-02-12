@@ -175,7 +175,7 @@ nav {
 
 .blog-button::after {
   content: "";
-  background-image: url(../images/icon_arrow-right.jpg);
+  background-image: url(icon_arrow-right.jpg);
   width: 5px;
   height: 9px;
   flex-shrink: 0;
