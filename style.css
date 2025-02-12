@@ -1,0 +1,349 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-img {
+  width: 280px;
+}
+
+header {
+  height: 156px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  list-style-type: none;
+}
+
+.nav-item {
+  color: #333;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+  letter-spacing: 1.8px;
+}
+
+nav {
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.concept-text {
+  color: #333;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.4px; /* 115% */
+  letter-spacing: 1.6px;
+}
+
+.concept-heading {
+  color: #24a8bf;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43px; /* 134.375% */
+  letter-spacing: 3.2px;
+  margin-top: 20px;
+}
+
+.concept-discription {
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px; /* 181.25% */
+  letter-spacing: 1.6px;
+  margin-top: 30px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.concept-left {
+  width: 50%;
+}
+
+.concept-right {
+  width: 50%;
+}
+
+.concept-img {
+  width: 555px;
+}
+
+.blog-post {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.blog-title-en {
+  color: #24a8bf;
+  font-family: Arial;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+  letter-spacing: 2.56px;
+}
+
+.blog-title-jp {
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px; /* 100% */
+  letter-spacing: 0.39px;
+  padding-top: 8px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.menu {
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 160% */
+  margin-top: 12px;
+}
+
+.day {
+  color: #333;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 108.333% */
+  letter-spacing: 0.6px;
+  margin-top: 6px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.blog-button {
+  display: inline-block;
+  padding: 18px;
+  padding-left: 72px;
+  padding-right: 73px;
+  font-size: 20px;
+  color: #24a8bf;
+  font-family: "Hiragino Kaku Gothic ProN";
+  text-decoration: none;
+  border: 2px solid #24a8bf;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+}
+
+.blog-button:hover {
+  background-color: #24a8bf;
+  color: #ffffff;
+}
+
+.blog-button::after {
+  content: "";
+  background-image: url(../images/icon_arrow-right.jpg);
+  width: 5px;
+  height: 9px;
+  flex-shrink: 0;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  right: 25.5px;
+  transform: translateY(-50%);
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #000;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-img {
+  width: 180px;
+}
+
+.footer-box {
+  margin-bottom: 50px;
+}
+
+.footer-container {
+  color: #8b8b8b;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.8px; /* 115% */
+  letter-spacing: 0.6px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 92px;
+    padding-top: 30px;
+  }
+
+  .header-img {
+    width: 160px;
+  }
+
+  .nav-item {
+    font-size: 16px;
+    line-height: 16px; /* 100% */
+    letter-spacing: 1.6px;
+  }
+
+  .nav {
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+
+  .inner {
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .concept-left {
+    width: 100%;
+  }
+
+  .concept-img {
+    width: 335px;
+  }
+  .concept-text {
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px; /* 120% */
+    letter-spacing: 1.5px;
+  }
+
+  .concept-right {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .concept-heading {
+    font-size: 26px;
+    line-height: 39px; /* 150% */
+    letter-spacing: 2.6px;
+    margin-top: 15px;
+  }
+
+  .concept-discription {
+    color: #333;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 180% */
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+  }
+
+  .blog-post {
+    text-align: center;
+    margin-top: 90px;
+  }
+
+  .blog-title-en {
+    color: #24a8bf;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 110% */
+    letter-spacing: 0.9px;
+  }
+
+  .blog-title-jp {
+    color: #333;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.36px;
+    padding-top: 3px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 28px;
+  }
+
+  .day {
+    line-height: 20.4px;
+    margin-top: 2px;
+  }
+
+  .button-container {
+    margin-top: 20px;
+  }
+
+  .blog-button {
+    padding: 18px;
+    padding-left: 133px;
+    padding-right: 132px;
+    font-size: 14px;
+  }
+
+  footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .footer-img {
+    width: 100px;
+  }
+
+  .footer-box {
+    margin-bottom: 40px;
+  }
+
+  .footer-container {
+    font-size: 10px;
+    line-height: 17px; /* 115% */
+    letter-spacing: 0.5px;
+  }
+}
